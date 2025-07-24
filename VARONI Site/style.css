@@ -1,0 +1,79 @@
+/* Base reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #0f0f0f;
+  color: #f4f4f4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 40px 20px;
+}
+
+.container {
+  max-width: 400px;
+  width: 100%;
+  background-color: #181818;
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 0 0 40px rgba(0, 0, 0, 0.6);
+  text-align: center;
+  transition: all 0.3s ease-in-out;
+}
+
+.profile img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid #4ade80;
+  margin-bottom: 15px;
+}
+
+h1 {
+  font-size: 28px;
+  margin-bottom: 5px;
+  color: #ffffff;
+  font-weight: 700;
+}
+
+p.bio {
+  font-size: 14px;
+  color: #bdbdbd;
+  margin-bottom: 30px;
+}
+
+.links {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.link {
+  background: #262626;
+  color: #fff;
+  padding: 12px;
+  border-radius: 12px;
+  text-decoration: none;
+  font-weight: 500;
+  transition: all 0.3s ease;
+  border: 1px solid transparent;
+}
+
+.link:hover {
+  background: #4ade80;
+  color: #000;
+  border: 1px solid #4ade80;
+}
+
+footer {
+  margin-top: 40px;
+  font-size: 12px;
+  color: #888;
+}
